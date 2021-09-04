@@ -1,0 +1,194 @@
+#frame-panel {
+    align-items: center;
+    background: #2d394b;
+    display: flex;
+    height: 60px;
+    left: 0;
+    padding: 10px 70px 10px 30px;
+    position: fixed;
+    z-index: 2;
+    right: 0;
+    top: 0;
+}
+.model_de_site {
+    align-items: baseline;
+    color: #9cc9f5;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 28px;
+    margin-right: 20px;
+    max-width: 45%;
+    min-width: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#frame-panel a{
+    text-decoration: none;
+}
+#frame-panel a:hover{
+    color: white;
+}
+.product-icon-back {
+    border-color: transparent #9cc8f5 transparent transparent;
+    border-style: solid;
+    border-width: 5px 5px 5px 0;
+    display: inline-block;
+    height: 0;
+    margin-right: 10px;
+    width: 0;
+}
+.les_support{
+    margin-left: 320px;
+}
+ .header-buttons{
+     margin-left: 290px;
+ }
+/* fin premier menu */
+.navbar-expand-lg{
+    background-color:#003b59;
+}
+.header_area{
+    z-index: 1;
+    margin-top: 60px;
+}
+.site-main{
+    position: absolute;
+    width: 100%;
+    top: 55px;
+    z-index: 0;
+
+}
+.image_glop{
+    width: 100%;
+    height: 500px;
+    background-image: url('../img/font.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 60px;
+    text-align: center;
+}
+.les_dif{
+    margin-left: -40px;
+}
+.image_glop h1,h6{  
+    color: white;
+}
+#text_glop{
+    margin-top: 30px;
+}
+#text_glop ul li{
+    margin-top: 30px;
+  
+    width: 200px;
+    border-radius: 24px; 
+    background-color: #ff8f44;
+    opacity: 90%;
+}
+#text_glop ul li a{
+    text-decoration: none;
+    color: white;
+}
+/* contenu jumbotron */
+.jumbotron{
+    width: 100%;
+    height: 450px;
+}
+.bouton_jum{
+    margin-left: -35px;
+    margin-top: 30px;
+}
+.bouton_jum  li{
+    list-style: none;
+    width: 200px;
+    border-radius: 24px; 
+    background-color: #fd8f44;
+}
+.bouton_jum li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* fin jumbotron */
+
+/* lign 3 */
+  .troisieme_lign h6{
+      color: black;
+  }
+  .troisieme_lign h5, h6{
+      font-family: 'Times New Roman';
+  }
+  .icon-lg {
+    width: 70px;
+    height: 70px;
+    line-height: 86px;
+    border-width: 2px;
+}
+/* fin ligne  3 */
+/* jumbotron 2 */
+#row_jumbotron2 h2,h4,h6{
+   font-family: 'Times New Roman';
+   text-align: justify;
+   margin: 30px;
+}
+#row_jumbotron2 h6{
+    color: black;
+}
+#send_mail{
+    height: auto;
+    padding-bottom: 20px;
+    background-color: #003b59;
+}
+/* carrousel */
+#carousel .what_student{
+  font-size: 30px;
+  color: white;
+} 
+#carousel{
+    height: auto;
+    background-color: #fd8f44;
+}
+ 
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+  
+
+/* footre */
+.langerba_footer a{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 25px;
+}
+.lien ul{
+    display: flex;
+}
+.lien ul li{
+    display: block;
+    margin: 20px;
+}
+.lien_reseau ul{
+    display: flex;
+}
+.lien ul li a{
+    color: white;
+    font-size: 12px;
+}
+ 
+.lien_reseau ul li{
+    display: block;
+    margin: 10px;
+}
+.copyright{
+    font-size: 12px;
+    margin: 20px;
+}
+.copyright a{
+    color: white;
+    font-size: 16px;
+}
+
+
